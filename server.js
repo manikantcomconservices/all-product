@@ -6,7 +6,7 @@ const app = express();
 require('dotenv').config();
 
 const PORT = 3000;
-const allowedOrigins = ['https://www.comcon.co.in', 'http://192.168.68.68:5500'];
+const allowedOrigins = ['https://www.comcon.co.in', 'http://192.168.68.63:5500'];
 
 app.use(cors(
     {
